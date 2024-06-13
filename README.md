@@ -1,2 +1,7 @@
 # miniOS
-# miniOS 5팀 최종 보고서 및 결과물
+# miniOS 실행과정
+git clone https://github.com/JinYeong-Jang/B5teamOS.git
+cd B5teamOS
+cd miniOS
+make
+./minios
