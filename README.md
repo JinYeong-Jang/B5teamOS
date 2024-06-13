@@ -1,7 +1,7 @@
 # miniOS
 # miniOS 실행과정
 git clone https://github.com/JinYeong-Jang/B5teamOS.git
-cd B5teamOS
-cd miniOS
+cd B5teamOS /br
+cd miniOS /br
 make
 ./minios
