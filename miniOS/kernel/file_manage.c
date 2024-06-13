@@ -243,7 +243,6 @@ Directory* loadDirectoryStructure(FILE* file, Directory* parent) {
     char line[512];
     Directory* dir = NULL;
     Directory* lastSubDir = NULL;
-    FileNode* lastFile = NULL;
 
     while (fgets(line, sizeof(line), file) != NULL) {
         line[strcspn(line, "\r\n")] = 0; // 줄 끝의 개행문자 제거
